@@ -693,6 +693,29 @@ section {
   padding: 0;
 }
 
+/* Child Text Container */
+.portfolio-wrap .image_text {
+  position: absolute;
+  bottom: 30;
+  right: 30;
+  /*background: black;*/
+  color: black;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.portfolio-wrap:hover div{
+  width: 90%;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 2;
+  z-index: 2; 
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
